@@ -11,6 +11,7 @@
       <van-button type="warning">警告按钮</van-button>
       <van-button type="danger">危险按钮</van-button>
     </div>
+    <div class="box" style="height: 100px"></div>
   </div>
 </template>
 <script>
@@ -18,4 +19,10 @@ export default {
   name: 'App' // 建议给组件都取一个名
 }
 </script>
-<style lang="less"></style>
+<style lang="less">
+.box {
+  width: 80px;
+  height: 80px;
+  background-color: pink;
+}
+</style>
